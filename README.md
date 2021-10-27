@@ -56,5 +56,9 @@ We see it reflected in the console
 
 ![Alt text](images/grafana.png?raw=true "grafana")
 
+**Example**
+![Alt text](images/example.png?raw=true "Example")
+
+
 
 
