@@ -1,7 +1,13 @@
 # monitoring-server-basic
+
 Basic monitoring using bash, prometheus and Grafana
 
 Let's monitor with Grafana, Prometheus, Pushgateway
+
+# Full demo
+
+[Tutorial](https://medium.com/@giovannyorjuel2/envíe-métricas-a-prometheus-mediante-pushgateway-5a8fe6357ea8)
+
 
 **Monitoring server architecture**
 
