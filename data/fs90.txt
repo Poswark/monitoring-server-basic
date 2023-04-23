@@ -1,0 +1,2 @@
+server1
+server2 /dev/loop0                  4.3G  4.3G     0 100% /mnt

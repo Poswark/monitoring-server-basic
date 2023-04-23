@@ -13,7 +13,6 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
 	      	libvirt.storage :file, :device => :cdrom, :path => '/laboratorio/Sistemas-Operativos/rhel-server-7.9-x86_64-dvd.iso'
 	    end
-		nodo1.vm.provision "shell", run: "/vagrant/preparar.sh", inline: "sh /vagrant/preparar.sh" ### preparar	
   	end   
 
 	config.vm.define :nodo2 do |nodo2|
@@ -27,7 +26,6 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
 	      	libvirt.storage :file, :device => :cdrom, :path => '/laboratorio/Sistemas-Operativos/rhel-server-7.9-x86_64-dvd.iso'
 	    end
-		nodo2.vm.provision "shell", run: "/vagrant/preparar.sh", inline: "sh /vagrant/preparar.sh" ### preparar	
   	end   
 
 end
